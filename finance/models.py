@@ -79,6 +79,7 @@ class Transfer(models.Model):
         MaxValueValidator(Balance.MAX_VALUE), MinValueValidator(0)])
     coef = models.FloatField(validators=[
         MaxValueValidator(Balance.MAX_VALUE), MinValueValidator(0)])
+    expenses = models.ManyToManyField(Expense)
     from_balance = models.ForeignKey(Balance, on_delete=models.CASCADE, related_name='from_balance')
     to_balance = models.ForeignKey(Balance, on_delete=models.CASCADE, related_name='to_balance')
 
