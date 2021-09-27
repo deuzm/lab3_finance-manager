@@ -725,3 +725,213 @@ INFO 2021-09-23 17:13:59,552 basehttp 14891 123145479270400 "GET /finance/expens
 INFO 2021-09-23 17:21:08,237 basehttp 14891 123145479270400 "GET /account/login/ HTTP/1.1" 200 4331
 INFO 2021-09-23 17:21:10,315 basehttp 14891 123145479270400 "GET /account/logout/ HTTP/1.1" 200 2869
 INFO 2021-09-23 17:21:12,706 basehttp 14891 123145479270400 "GET /account/registration/register/ HTTP/1.1" 200 5373
+INFO 2021-09-23 18:48:19,836 autoreload 16732 4555759104 Watching for file changes with StatReloader
+WARNING 2021-09-23 18:48:25,223 basehttp 16732 123145396101120 "GET / HTTP/1.1" 404 2532
+INFO 2021-09-23 18:48:29,953 basehttp 16732 123145412890624 "GET /about/ HTTP/1.1" 200 2693
+INFO 2021-09-23 18:48:29,957 basehttp 16732 123145396101120 "GET /static/default/css/main.css HTTP/1.1" 200 236
+WARNING 2021-09-24 10:53:27,577 basehttp 16732 123145396101120 "GET / HTTP/1.1" 404 2532
+INFO 2021-09-24 10:53:31,322 basehttp 16732 123145412890624 "GET /about/ HTTP/1.1" 200 2693
+WARNING 2021-09-24 11:10:16,002 basehttp 16732 123145396101120 "GET / HTTP/1.1" 404 2532
+INFO 2021-09-24 11:50:03,922 autoreload 7 140428240041792 Watching for file changes with StatReloader
+INFO 2021-09-24 11:57:58,337 autoreload 7 140143344039744 Watching for file changes with StatReloader
+INFO 2021-09-24 12:02:01,503 autoreload 9 139706635876160 Watching for file changes with StatReloader
+INFO 2021-09-24 12:02:31,664 autoreload 8 140144332879680 Watching for file changes with StatReloader
+INFO 2021-09-24 12:03:18,983 autoreload 7 140551876204352 Watching for file changes with StatReloader
+INFO 2021-09-24 12:04:19,023 autoreload 8 140110048008000 Watching for file changes with StatReloader
+INFO 2021-09-24 12:05:38,778 autoreload 7 140206423086912 Watching for file changes with StatReloader
+INFO 2021-09-24 12:05:44,477 autoreload 8 140617355126592 Watching for file changes with StatReloader
+INFO 2021-09-24 12:07:56,785 autoreload 8 140369686488896 Watching for file changes with StatReloader
+INFO 2021-09-24 12:11:11,073 autoreload 7 139982927759168 Watching for file changes with StatReloader
+INFO 2021-09-24 12:15:43,065 autoreload 8 140328728258368 Watching for file changes with StatReloader
+INFO 2021-09-24 12:16:54,219 autoreload 10 140288297080640 Watching for file changes with StatReloader
+INFO 2021-09-24 14:35:54,976 autoreload 9 139882386081600 Watching for file changes with StatReloader
+INFO 2021-09-24 14:37:43,028 autoreload 7 140060626118464 Watching for file changes with StatReloader
+ERROR 2021-09-24 14:37:47,699 exception 7 140060573124352 Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2021-09-24 14:37:47,802 basehttp 7 140060573124352 "GET / HTTP/1.1" 400 61949
+ERROR 2021-09-24 14:37:47,970 exception 7 140060573124352 Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2021-09-24 14:37:48,056 basehttp 7 140060573124352 "GET /favicon.ico HTTP/1.1" 400 62011
+ERROR 2021-09-24 14:37:54,672 exception 7 140060573124352 Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2021-09-24 14:37:54,736 basehttp 7 140060573124352 "GET /about HTTP/1.1" 400 62004
+INFO 2021-09-24 14:38:30,825 autoreload 7 140060626118464 /code/financial_manager/settings.py changed, reloading.
+INFO 2021-09-24 14:38:31,402 autoreload 12 140687117076288 Watching for file changes with StatReloader
+INFO 2021-09-24 14:38:45,892 basehttp 12 140687064082176 "GET /about HTTP/1.1" 301 0
+INFO 2021-09-24 14:38:45,982 basehttp 12 140687064082176 "GET /about/ HTTP/1.1" 200 2693
+INFO 2021-09-24 14:38:46,063 basehttp 12 140687055165184 "GET /static/default/css/main.css HTTP/1.1" 200 236
+INFO 2021-09-24 14:38:46,064 basehttp 12 140687046772480 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60010
+INFO 2021-09-24 14:38:46,077 basehttp 12 140687038379776 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2021-09-24 14:38:46,110 basehttp 12 140687064082176 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+INFO 2021-09-24 14:42:55,719 autoreload 12 140687117076288 /code/financial_manager/settings.py changed, reloading.
+INFO 2021-09-24 14:42:56,456 autoreload 18 140023398508352 Watching for file changes with StatReloader
+INFO 2021-09-24 14:44:12,580 autoreload 10 140252560688960 Watching for file changes with StatReloader
+WARNING 2021-09-24 14:44:20,287 basehttp 10 140252507694848 "GET / HTTP/1.1" 404 2530
+INFO 2021-09-24 14:44:24,775 basehttp 10 140252507694848 "GET /about/ HTTP/1.1" 200 2693
+INFO 2021-09-24 14:45:06,346 autoreload 8 139677123077952 Watching for file changes with StatReloader
+INFO 2021-09-24 14:45:09,971 basehttp 8 139677070083840 "GET /about/ HTTP/1.1" 200 2693
+WARNING 2021-09-24 14:45:15,002 basehttp 8 139677070083840 "GET / HTTP/1.1" 404 179
+INFO 2021-09-24 14:45:31,286 basehttp 8 139677061166848 "GET /about/ HTTP/1.1" 200 2693
+INFO 2021-09-24 14:51:09,706 autoreload 8 139677123077952 /code/financial_manager/urls.py changed, reloading.
+INFO 2021-09-24 14:51:10,444 autoreload 12 140469155301184 Watching for file changes with StatReloader
+INFO 2021-09-24 14:51:45,931 autoreload 12 140469155301184 /code/financial_manager/urls.py changed, reloading.
+INFO 2021-09-24 14:51:46,909 autoreload 14 140293647804224 Watching for file changes with StatReloader
+INFO 2021-09-24 14:51:50,410 autoreload 14 140293647804224 /code/financial_manager/urls.py changed, reloading.
+INFO 2021-09-24 14:51:50,948 autoreload 16 140331698767680 Watching for file changes with StatReloader
+INFO 2021-09-24 14:51:52,463 basehttp 16 140331645773568 "GET /about/ HTTP/1.1" 200 2693
+INFO 2021-09-24 14:51:57,488 basehttp 16 140331645773568 "GET /about/ HTTP/1.1" 200 2693
+INFO 2021-09-24 14:52:01,410 basehttp 16 140331636594432 "GET /about/ HTTP/1.1" 200 2693
+WARNING 2021-09-24 14:52:03,378 basehttp 16 140331645773568 "GET / HTTP/1.1" 404 179
+WARNING 2021-09-24 14:52:06,003 basehttp 16 140331645773568 "GET / HTTP/1.1" 404 179
+WARNING 2021-09-24 14:52:09,037 basehttp 16 140331645773568 "GET / HTTP/1.1" 404 179
+INFO 2021-09-24 14:52:36,916 autoreload 16 140331698767680 /code/financial_manager/urls.py changed, reloading.
+INFO 2021-09-24 14:52:37,733 autoreload 20 140256040363840 Watching for file changes with StatReloader
+INFO 2021-09-24 14:52:39,098 autoreload 20 140256040363840 /code/financial_manager/urls.py changed, reloading.
+INFO 2021-09-24 14:52:39,693 autoreload 22 140614770440000 Watching for file changes with StatReloader
+WARNING 2021-09-24 14:52:43,103 basehttp 22 140614717445888 "GET / HTTP/1.1" 404 179
+WARNING 2021-09-24 14:52:45,131 basehttp 22 140614717445888 "GET / HTTP/1.1" 404 179
+WARNING 2021-09-24 14:52:46,078 basehttp 22 140614717445888 "GET / HTTP/1.1" 404 179
+WARNING 2021-09-24 14:52:46,894 basehttp 22 140614717445888 "GET / HTTP/1.1" 404 179
+INFO 2021-09-24 14:52:57,630 autoreload 22 140614770440000 /code/financial_manager/urls.py changed, reloading.
+INFO 2021-09-24 14:52:58,239 autoreload 25 139828477863744 Watching for file changes with StatReloader
+WARNING 2021-09-24 14:53:02,021 basehttp 25 139828424869632 "GET / HTTP/1.1" 404 179
+WARNING 2021-09-24 14:53:03,343 basehttp 25 139828424869632 "GET / HTTP/1.1" 404 179
+INFO 2021-09-24 14:53:03,893 basehttp 25 139828407822080 "GET /about HTTP/1.1" 301 0
+INFO 2021-09-24 14:53:03,947 basehttp 25 139828407822080 "GET /about/ HTTP/1.1" 200 2693
+WARNING 2021-09-24 14:53:04,002 basehttp 25 139828407822080 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-24 14:53:04,016 basehttp 25 139828416214784 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-24 14:53:04,018 basehttp 25 139828399167232 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-24 14:53:04,036 basehttp 25 139828407822080 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-24 14:53:04,077 basehttp 25 139828407822080 "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2021-09-24 14:53:05,463 basehttp 25 139828424869632 "GET / HTTP/1.1" 404 179
+WARNING 2021-09-24 14:53:17,310 basehttp 25 139828424869632 "GET / HTTP/1.1" 404 179
+INFO 2021-09-24 14:53:42,578 autoreload 7 140447016290112 Watching for file changes with StatReloader
+WARNING 2021-09-24 14:53:45,310 basehttp 7 140446963296000 "GET / HTTP/1.1" 404 2683
+INFO 2021-09-24 14:53:52,163 basehttp 7 140446954116864 "GET /about/ HTTP/1.1" 200 2693
+INFO 2021-09-24 14:54:09,009 autoreload 7 140447016290112 /code/financial_manager/urls.py changed, reloading.
+INFO 2021-09-24 14:54:10,011 autoreload 11 140684059850560 Watching for file changes with StatReloader
+WARNING 2021-09-24 14:54:14,816 basehttp 11 140683935479552 "GET / HTTP/1.1" 404 2683
+INFO 2021-09-24 14:54:40,550 autoreload 11 140684059850560 /code/financial_manager/urls.py changed, reloading.
+INFO 2021-09-24 14:54:41,515 autoreload 14 139636872795968 Watching for file changes with StatReloader
+WARNING 2021-09-24 14:54:42,775 basehttp 14 139636820326144 "GET / HTTP/1.1" 404 2744
+WARNING 2021-09-24 14:54:44,766 basehttp 14 139636820326144 "GET / HTTP/1.1" 404 2744
+INFO 2021-09-24 14:55:16,865 autoreload 14 139636872795968 /code/financial_manager/urls.py changed, reloading.
+INFO 2021-09-24 14:55:17,413 autoreload 17 140255192733504 Watching for file changes with StatReloader
+INFO 2021-09-24 14:55:46,605 autoreload 17 140255192733504 /code/pages/urls.py changed, reloading.
+INFO 2021-09-24 14:55:47,268 autoreload 19 140396227258176 Watching for file changes with StatReloader
+INFO 2021-09-24 14:55:48,402 basehttp 19 140396105561856 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-24 14:55:48,456 basehttp 19 140396097169152 "GET /static/default/css/main.css HTTP/1.1" 200 236
+INFO 2021-09-24 14:55:48,459 basehttp 19 140396088776448 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2021-09-24 14:55:48,463 basehttp 19 140396080383744 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60010
+INFO 2021-09-24 14:55:48,479 basehttp 19 140396105561856 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+INFO 2021-09-24 14:56:21,033 autoreload 19 140396227258176 /code/pages/urls.py changed, reloading.
+INFO 2021-09-24 14:56:21,838 autoreload 25 140681762092864 Watching for file changes with StatReloader
+INFO 2021-09-24 14:56:24,191 basehttp 25 140681709098752 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-24 14:56:28,522 basehttp 25 140681709098752 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-24 14:58:18,036 basehttp 25 140681709098752 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-24 14:58:19,315 basehttp 25 140681709098752 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-24 15:00:41,246 autoreload 10 140591812818752 Watching for file changes with StatReloader
+INFO 2021-09-24 15:00:44,001 basehttp 10 140591759824640 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-24 15:34:37,708 autoreload 11 140175092709184 Watching for file changes with StatReloader
+INFO 2021-09-24 15:56:01,558 basehttp 11 140175039715072 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-24 15:56:01,573 basehttp 11 140175039715072 "GET /static/default/css/main.css HTTP/1.1" 404 179
+INFO 2021-09-24 16:35:28,897 autoreload 10 139823416964928 Watching for file changes with StatReloader
+INFO 2021-09-24 16:49:27,911 autoreload 9 140042245236544 Watching for file changes with StatReloader
+INFO 2021-09-24 17:00:45,521 autoreload 10 139660507715392 Watching for file changes with StatReloader
+INFO 2021-09-27 14:12:22,828 autoreload 10 140658592765760 Watching for file changes with StatReloader
+INFO 2021-09-27 14:29:50,790 autoreload 10 140374627518272 Watching for file changes with StatReloader
+INFO 2021-09-27 14:29:59,238 basehttp 10 140374574524160 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-27 14:29:59,268 basehttp 10 140374574524160 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:29:59,279 basehttp 10 140374479722240 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:29:59,284 basehttp 10 140374496507648 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:29:59,290 basehttp 10 140374488114944 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+INFO 2021-09-27 14:30:07,556 basehttp 10 140374574524160 "GET /account/login/ HTTP/1.1" 200 4343
+WARNING 2021-09-27 14:30:07,571 basehttp 10 140374479722240 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:30:07,575 basehttp 10 140374488114944 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:30:07,577 basehttp 10 140374496507648 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:30:07,581 basehttp 10 140374574524160 "GET /static/default/css/main.css HTTP/1.1" 404 179
+INFO 2021-09-27 14:30:07,982 basehttp 10 140374574524160 "GET /account/login/ HTTP/1.1" 200 4343
+WARNING 2021-09-27 14:30:07,999 basehttp 10 140374479722240 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:30:08,000 basehttp 10 140374488114944 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:30:08,002 basehttp 10 140374574524160 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:30:08,003 basehttp 10 140374496507648 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+INFO 2021-09-27 14:31:00,924 autoreload 10 140561165862720 Watching for file changes with StatReloader
+INFO 2021-09-27 14:31:04,441 basehttp 10 140561112868608 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-27 14:31:04,497 basehttp 10 140561103951616 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:31:04,499 basehttp 10 140561112868608 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:31:04,501 basehttp 10 140561087166208 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:31:04,508 basehttp 10 140561095558912 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+INFO 2021-09-27 14:31:40,769 autoreload 53111 4385328640 Watching for file changes with StatReloader
+INFO 2021-09-27 14:41:03,668 autoreload 53261 4654636544 Watching for file changes with StatReloader
+INFO 2021-09-27 14:51:01,602 autoreload 53261 4654636544 /Users/liz.malinovskaya/butoma/bsuir_2020_python/project/financial_manager/settings.py changed, reloading.
+INFO 2021-09-27 14:51:02,309 autoreload 53455 4404874752 Watching for file changes with StatReloader
+INFO 2021-09-27 14:52:27,887 basehttp 53455 123145357889536 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-27 14:52:27,897 basehttp 53455 123145357889536 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:52:27,901 basehttp 53455 123145374679040 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:52:27,908 basehttp 53455 123145391468544 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:52:27,909 basehttp 53455 123145408258048 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+INFO 2021-09-27 14:55:05,939 basehttp 53455 123145357889536 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-27 14:55:05,997 basehttp 53455 123145357889536 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:06,006 basehttp 53455 123145357889536 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:06,007 basehttp 53455 123145374679040 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:06,007 basehttp 53455 123145391468544 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:06,013 basehttp 53455 123145391468544 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:06,078 basehttp 53455 123145391468544 "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:10,481 basehttp 53455 123145391468544 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:10,481 basehttp 53455 123145374679040 "GET /static/default/css/main.css HTTP/1.1" 404 179
+INFO 2021-09-27 14:55:13,435 basehttp 53455 123145374679040 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-27 14:55:13,475 basehttp 53455 123145374679040 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:13,478 basehttp 53455 123145391468544 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:13,484 basehttp 53455 123145408258048 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:13,485 basehttp 53455 123145357889536 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:55:13,492 basehttp 53455 123145357889536 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+INFO 2021-09-27 14:55:58,744 autoreload 53545 4602793472 Watching for file changes with StatReloader
+INFO 2021-09-27 14:56:03,740 basehttp 53545 123145344290816 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-27 14:56:03,747 basehttp 53545 123145344290816 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:56:03,753 basehttp 53545 123145361080320 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:56:03,754 basehttp 53545 123145377869824 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:56:03,755 basehttp 53545 123145394659328 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+INFO 2021-09-27 14:56:06,528 basehttp 53545 123145344290816 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-27 14:56:06,538 basehttp 53545 123145361080320 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:56:06,539 basehttp 53545 123145344290816 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 14:56:06,539 basehttp 53545 123145377869824 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 14:56:06,540 basehttp 53545 123145394659328 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+INFO 2021-09-27 14:57:04,007 autoreload 53572 4728950272 Watching for file changes with StatReloader
+INFO 2021-09-27 14:57:52,960 autoreload 53588 4521881088 Watching for file changes with StatReloader
+INFO 2021-09-27 14:57:55,620 basehttp 53588 123145541447680 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-27 14:57:55,630 basehttp 53588 123145541447680 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+INFO 2021-09-27 14:57:55,636 basehttp 53588 123145558237184 "GET /static/default/css/main.css HTTP/1.1" 200 236
+INFO 2021-09-27 14:57:55,638 basehttp 53588 123145591816192 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60010
+INFO 2021-09-27 14:57:55,640 basehttp 53588 123145575026688 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2021-09-27 14:58:13,135 autoreload 53614 4555304448 Watching for file changes with StatReloader
+INFO 2021-09-27 14:58:16,509 basehttp 53614 123145579827200 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-27 14:58:18,901 basehttp 53614 123145579827200 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-27 14:59:13,797 autoreload 53676 4562873856 Watching for file changes with StatReloader
+INFO 2021-09-27 14:59:16,732 basehttp 53676 123145554386944 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-27 14:59:19,284 basehttp 53676 123145554386944 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-27 15:01:46,697 autoreload 11 140249694525248 Watching for file changes with StatReloader
+INFO 2021-09-27 15:01:50,275 basehttp 11 140249641531136 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-27 15:01:50,312 basehttp 11 140249641531136 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 15:01:50,313 basehttp 11 140249615828736 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 15:01:50,318 basehttp 11 140249624221440 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 15:01:50,320 basehttp 11 140249632614144 "GET /static/default/css/main.css HTTP/1.1" 404 179
+INFO 2021-09-27 15:02:19,865 basehttp 11 140249271367424 "GET / HTTP/1.1" 200 2693
+WARNING 2021-09-27 15:02:19,912 basehttp 11 140249271367424 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2021-09-27 15:02:19,920 basehttp 11 140249262974720 "GET /static/default/css/main.css HTTP/1.1" 404 179
+WARNING 2021-09-27 15:02:19,927 basehttp 11 140249254582016 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2021-09-27 15:02:19,954 basehttp 11 140249254582016 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 179
+INFO 2021-09-27 15:04:07,662 autoreload 11 139817349334848 Watching for file changes with StatReloader
+INFO 2021-09-27 15:04:12,881 basehttp 11 139817224500992 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-27 15:04:12,960 basehttp 11 139817216108288 "GET /static/default/css/main.css HTTP/1.1" 200 236
+INFO 2021-09-27 15:04:12,962 basehttp 11 139817199322880 "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60010
+INFO 2021-09-27 15:04:12,967 basehttp 11 139817207715584 "GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2021-09-27 15:04:12,978 basehttp 11 139817224500992 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+INFO 2021-09-27 15:04:15,525 basehttp 11 139817224500992 "GET /about/ HTTP/1.1" 200 2693
+INFO 2021-09-27 15:05:40,849 autoreload 10 140351648921408 Watching for file changes with StatReloader
+INFO 2021-09-27 15:06:08,905 autoreload 9 140466898597696 Watching for file changes with StatReloader
+INFO 2021-09-27 15:06:31,032 autoreload 9 140466898597696 /code/financial_manager/settings.py changed, reloading.
+INFO 2021-09-27 15:06:31,459 autoreload 11 139959889901376 Watching for file changes with StatReloader
+INFO 2021-09-27 15:06:45,767 basehttp 11 139959763728128 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-27 15:07:05,706 autoreload 10 139886582839104 Watching for file changes with StatReloader
+INFO 2021-09-27 15:07:10,934 basehttp 10 139886529844992 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-27 15:07:12,744 basehttp 10 139886529844992 "GET /account/login/ HTTP/1.1" 200 4343
+INFO 2021-09-27 15:08:45,417 autoreload 10 139786323437376 Watching for file changes with StatReloader
+INFO 2021-09-27 15:08:48,720 basehttp 10 139786270443264 "GET / HTTP/1.1" 200 2693
+INFO 2021-09-27 15:08:51,048 basehttp 10 139786270443264 "GET /account/login/ HTTP/1.1" 200 4343

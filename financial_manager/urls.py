@@ -22,7 +22,7 @@ from pages import views as pages_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('about/', pages_views.about, name='about'),
+    path('', include('pages.urls')),
     path('account/', include('accounts.urls')),
     path('finance/', include('finance.urls')),
 ]

@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 import socket
 
+ENV = os.environ.get('ENV', 'PROD')
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -24,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')b$qg1&_i8j_(0j3^ld$eeo+7jo!bvwfi7&aghmvu6@v&%&f28'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = ENV == 'LOCAL'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -89,15 +90,27 @@ WSGI_APPLICATION = 'financial_manager.wsgi.application'
 
 # DATABASES = load_from_file(os.path.join('configs', 'databases.cfg'))
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'financial_manager',
-        'USER': 'admin',
-        'PASSWORD': 'password',
-        'HOST': 'localhost'
+
+if ENV == 'LOCAL':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'financial_manager',
+            'USER': 'admin',
+            'PASSWORD': 'password',
+            'HOST': 'db'
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'finance_manager',
+            'USER': 'root',
+            'PASSWORD': 'password123',
+            'HOST': '34.118.126.189'
+        }
+    }
 
 
 # Password validation
